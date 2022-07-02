@@ -31,8 +31,8 @@
 		008341E751E1B712529CC33B /* Pods_TedoooTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TedoooTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07763A05E1A415B0DA6C6818 /* Pods_TedoooTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TedoooTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD0BEEA406247C1579EBB54 /* Pods-TedoooTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooTextView_Example.release.xcconfig"; path = "Target Support Files/Pods-TedoooTextView_Example/Pods-TedoooTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		33EAE7A75D9A8FE472F1047E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5F62D3C47DF829F835EC9CAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		33EAE7A75D9A8FE472F1047E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5F62D3C47DF829F835EC9CAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TedoooTextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TedoooTextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C94A8A485FB7CF521C0BC25 /* Pods-TedoooTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-TedoooTextView_Example/Pods-TedoooTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99B53532ACB5BE1DFF0EF1DD /* Pods-TedoooTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooTextView_Tests.release.xcconfig"; path = "Target Support Files/Pods-TedoooTextView_Tests/Pods-TedoooTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B0FAA10C92BDBE99FB9BFC62 /* TedoooTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TedoooTextView.podspec; path = ../TedoooTextView.podspec; sourceTree = "<group>"; };
+		B0FAA10C92BDBE99FB9BFC62 /* TedoooTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TedoooTextView.podspec; path = ../TedoooTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8DC14B08C7010892D4D7268 /* Pods-TedoooTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooTextView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TedoooTextView_Tests/Pods-TedoooTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				E8DC14B08C7010892D4D7268 /* Pods-TedoooTextView_Tests.debug.xcconfig */,
 				99B53532ACB5BE1DFF0EF1DD /* Pods-TedoooTextView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

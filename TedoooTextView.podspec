@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TedoooTextView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'text view with both placeholder and border'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ custom uitextview for tedooo items
   s.source           = { :git => 'https://github.com/morapelker/tedooo-ios-textview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'TedoooTextView/Classes/**/*'
