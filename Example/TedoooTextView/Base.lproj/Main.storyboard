@@ -50,11 +50,6 @@
             <point key="canvasLocation" x="-34" y="122"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="c43-7t-Pqe">
-            <size key="intrinsicContentSize" width="10" height="33"/>
-        </designable>
-    </designables>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
