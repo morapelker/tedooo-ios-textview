@@ -1,7 +1,7 @@
 import UIKit
 import Combine
 
-@IBDesignable class TedoooTextView: UITextView {
+@IBDesignable public class TedoooTextView: UITextView {
     
     public let placeholderLabel: UILabel = UILabel()
     
